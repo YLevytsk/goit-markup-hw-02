@@ -140,6 +140,12 @@ img {
 }
 .section-furst {
     background-color: #2e2f42;
+    width: 1440px;
+height: 600px;
+top: 72px;
+gap: 0px;
+opacity: 0px;
+
 }
 .button-hero {
     background-color: #4D5AE5;
