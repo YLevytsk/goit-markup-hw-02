@@ -150,6 +150,6 @@ img {
 span { 
     color:#f4f4fd;
 }
-.footer .logo-2 {
-    color: #F4F4FD; /* Меняем цвет части логотипа в футере */
+footer .logo-2 {
+    color: #F4F4FD;
 }
