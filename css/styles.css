@@ -65,6 +65,14 @@ h2, .heder2, .team-title {
 .adress-list-2:focus {
     color: #404bbf; /* Цвет текста при наведении или фокусе */
 }
+.adress-box {
+    font-style: normal; /* Установка нормального начертания */
+}
+
+/* Остальные стили для адреса */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
+}
 
 .team-item-title {
     font-weight: 500;
