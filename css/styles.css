@@ -108,7 +108,7 @@ color: #2e2f42;
     padding-top: 120px;
 }
 .team-item {
-    width: calc((100%/4)-(24px*3)/4);
+    width: calc((100% / 4)- (24px*3) / 4);
     text-align: center;
 }
 .team-item-title {
