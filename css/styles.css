@@ -32,6 +32,16 @@ h2, .heder2, .team-title {
 .features-list a:focus {
     color: #404bbf; /* Цвет текста при наведении или фокусе */
 }
+/* Основной цвет текста для всех ссылок */
+.main-page-link {
+    color: #2e2f42; /* Цвет текста */
+}
+
+/* Цвет текста при наведении и фокусе */
+.main-page-link:hover,
+.main-page-link:focus {
+    color: #404bbf; /* Цвет текста при наведении или фокусе */
+}
 
 .team-item-title {
     font-weight: 500;
