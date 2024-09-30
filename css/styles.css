@@ -28,9 +28,28 @@ h2, .heder2, .team-title {
 }
 
 /* Цвет текста при наведении на ссылку */
+/* Стили для ссылок в меню */
+.feature-list a,
+.features-list a {
+    font-weight: 500; /* Установка жирности шрифта по умолчанию */
+    color: #2e2f42; /* Цвет текста по умолчанию */
+}
+
+/* Цвет текста и жирность при наведении */
+.feature-list a:hover,
 .features-list a:hover,
+.feature-list a:focus,
 .features-list a:focus {
     color: #404bbf; /* Цвет текста при наведении или фокусе */
+    font-weight: 500; /* Жирность шрифта при наведении или фокусе */
+}
+/* Цвет текста и жирность при наведении */
+.feature-list a:hover,
+.features-list a:hover,
+.feature-list a:focus,
+.features-list a:focus {
+    color: #404bbf; /* Цвет текста при наведении или фокусе */
+    font-weight: 500; /* Жирность шрифта при наведении или фокусе */
 }
 /* Основной цвет текста для всех ссылок */
 .main-page-link {
