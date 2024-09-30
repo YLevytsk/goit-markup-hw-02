@@ -8,9 +8,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.feature-list:first-child a {
-    font-weight: 500; /* Установка жирности шрифта для первого пункта списка */
+.skills-title {
+    font-weight: 500; /* Установка жирности шрифта для заголовков */
 }
+
 
 a {
     text-decoration: none;
