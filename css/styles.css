@@ -42,6 +42,29 @@ h2, .heder2, .team-title {
 .main-page-link:focus {
     color: #404bbf; /* Цвет текста при наведении или фокусе */
 }
+/* Основной цвет текста для всех ссылок */
+.main-page-link {
+    color: #2e2f42; /* Цвет текста по умолчанию */
+}
+
+/* Цвет текста при наведении */
+.main-page-link:hover,
+.main-page-link:focus {
+    color: #404bbf; /* Цвет текста при наведении или фокусе */
+}
+
+/* Вы можете также добавить стили для остальных ссылок, если это необходимо */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
+}
+
+/* Цвет текста для адресов при наведении или фокусе */
+.address-list:hover,
+.address-list:focus,
+.adress-list-2:hover,
+.adress-list-2:focus {
+    color: #404bbf; /* Цвет текста при наведении или фокусе */
+}
 
 .team-item-title {
     font-weight: 500;
