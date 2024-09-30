@@ -8,9 +8,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.feature-list:first-child a {
-    font-weight: 500; /* Установка жирности шрифта для первого пункта списка */
-}
 
 a {
     text-decoration: none;
@@ -19,6 +16,17 @@ a {
 
 .button-hero {
     cursor: pointer;
+    background: #4D5AE5; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    transition: background 0.3s; /* Плавный переход */
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF; 
 }
 
 /* Заголовки общего назначения */
@@ -27,7 +35,6 @@ h2, .heder2 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -36,20 +43,14 @@ h2, .heder2 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5; /* Основная часть логотипа */
+    color: #4d5ae5; 
 }
 
 .logo_studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42; /* Часть логотипа "studio" */
+    color: #2e2f42; 
 }
 
 /* Стили для меню */
@@ -57,37 +58,29 @@ h2, .heder2 {
     height: 72px;
     display: flex;
 }
+
 .features {
     font-weight: 500;
     display: flex;
-    margin-top: 0;
     margin-left: 76px;
 }
-.fiatures-list, .feature-list {
+
+.feature-list {
     margin-right: 40px;
-    margin-top: 0;
 }
+
 .feature-list:first-child a:hover,
 .feature-list:first-child a:focus {
-  color: #404bbf;
+    color: #404bbf;
 }
+
 /* Адрес */
 .address-list, .address-list-2 {
     display: flex;
     margin-top: 24px;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 0.02em;
     color: #434455;
-}
-.address-list {
-    margin-left: 332px;   
-}
-.address-list-2 {
-    margin-right: 156px;
-}
-address > ul {
-    display: flex;
 }
 
 /* Команда */
@@ -95,31 +88,17 @@ address > ul {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.02em;
 }
+
 .team-item-description {
     font-weight: 400;
     color: #434455;  
 }
+
 .team-item-title {
     font-weight: 500;
     margin-top: 32px;
-    margin-bottom: 8px;
     color: #2e2f42;
-}
-
-/* Кнопка */
-.button-hero {
-    background: #4D5AE5; /* Замена на background вместо background-color */
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-}
-.button-hero:hover,
-.button-hero:focus {
-    background: #404BBF; /* Также применяется background */
 }
 
 /* Остальные стили */
@@ -129,17 +108,13 @@ ul {
 
 .section-furst {
     background-color: #2e2f42;
-    width: 1440px;
+    width: 100%; /* Установите нужное значение */
     height: 600px;
-    top: 72px;
-    gap: 0px;
 }
 
 .text-hero, .title-main {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
@@ -157,9 +132,11 @@ img {
 span { 
     color:#f4f4fd;
 }
+
 footer .logo_studio {
     color: #F4F4FD;
 }
+
 footer .logo_web {
     color: #4d5ae5;
 }
