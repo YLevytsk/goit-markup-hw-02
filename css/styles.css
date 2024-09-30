@@ -7,6 +7,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #2E2F42;
+}
 
 .header-container {
     height: 72px;
@@ -76,8 +83,16 @@ body {
 address > ul {
     display: flex;
 }
+.address {
+    font-style: normal;
+}
 nav {
     display: flex;
+    font-weight: 500;
+    color: #2E2F42;
+}
+ul {
+    list-style-type: none;
 }
 .about {
     background-color: #f4f4fd;
@@ -132,7 +147,7 @@ color: #2e2f42;
     color: #434455;  
 }
 .title-main {
-     font-weight: 700;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -146,9 +161,9 @@ img {
 .section-furst {
     background-color: #2e2f42;
     width: 1440px;
-height: 600px;
-top: 72px;
-gap: 0px;
+    height: 600px;
+    top: 72px;
+    gap: 0px;
 
 }
 .button-hero {
@@ -158,4 +173,40 @@ gap: 0px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF;
+}
+.section-third {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+.section-fourth {
+    text-align: center;
+}
+.main-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    letter-spacing: 0.02em;
+}
+.text-hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.footer-text {
+    letter-spacing: 0.02em;
+}
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.section-fourth {
+    text-align: center;
 }
