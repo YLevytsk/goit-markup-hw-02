@@ -207,6 +207,9 @@ img {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
+span { 
+    color:#f4f4fd;
+}
 .section-fourth {
     text-align: center;
 }
