@@ -103,7 +103,7 @@ address > ul {
 
 /* Кнопка */
 .button-hero {
-    background-color: #4D5AE5;
+    background: #4D5AE5; /* Замена на background вместо background-color */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -112,7 +112,7 @@ address > ul {
 }
 .button-hero:hover,
 .button-hero:focus {
-    background-color: #404BBF;
+    background: #404BBF; /* Также применяется background */
 }
 
 /* Остальные стили */
