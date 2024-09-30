@@ -8,31 +8,29 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.skills-title {
-    font-weight: 500; /* Установка жирности шрифта для заголовков */
-}
 
-
-a {
-    text-decoration: none;
-    color: #2E2F42;
-}
-
-.button-hero {
-    cursor: pointer;
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
 }
 
 /* Заголовки общего назначения */
-h2, .heder2 {
+h2, .heder2, .team-title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 36px; /* Измените на нужный размер для h2 и .heder2 */
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
 
-/* Лого */
+.team-item-title {
+    font-weight: 500;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    color: #2e2f42;
+}
+
+/* Стили для логотипа */
 .logo_web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -58,20 +56,26 @@ h2, .heder2 {
     height: 72px;
     display: flex;
 }
+
 .features {
-    font-weight: 500;
     display: flex;
     margin-top: 0;
     margin-left: 76px;
 }
-.fiatures-list, .feature-list {
+
+.features-list, .feature-list {
     margin-right: 40px;
-    margin-top: 0;
 }
-.feature-list:first-child a:hover,
-.feature-list:first-child a:focus {
-  color: #404bbf;
+
+.feature-list a {
+    font-weight: 500; /* Установка жирности шрифта для ссылок в списке */
 }
+
+.feature-list a:hover,
+.feature-list a:focus {
+    color: #404bbf; /* Изменение цвета шрифта при наведении и фокусе */
+}
+
 /* Адрес */
 .address-list, .address-list-2 {
     display: flex;
@@ -81,14 +85,13 @@ h2, .heder2 {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .address-list {
     margin-left: 332px;   
 }
+
 .address-list-2 {
     margin-right: 156px;
-}
-address > ul {
-    display: flex;
 }
 
 /* Команда */
@@ -98,35 +101,29 @@ address > ul {
     text-align: center;
     letter-spacing: 0.02em;
 }
+
 .team-item-description {
     font-weight: 400;
     color: #434455;  
 }
-.team-item-title {
-    font-weight: 500;
-    margin-top: 32px;
-    margin-bottom: 8px;
-    color: #2e2f42;
-}
 
 /* Кнопка */
 .button-hero {
-    background: #4D5AE5; /* Замена на background вместо background-color */
+    background: #4D5AE5; /* Цвет кнопки */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-}
-.button-hero:hover,
-.button-hero:focus {
-    background: #404BBF; /* Также применяется background */
+    cursor: pointer;
 }
 
-/* Остальные стили */
-ul {
-    list-style-type: none;
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF; /* Цвет кнопки при наведении */
 }
+
+/* Секции */
 .section-skills {
     width: 1128px; /* Ширина секции */
     height: 104px; /* Высота секции */
@@ -137,16 +134,14 @@ ul {
     opacity: 1; /* Полная видимость секции */
 }
 
-
-
 .section-furst {
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
     top: 72px;
-    gap: 0px;
 }
 
+/* Тексты */
 .text-hero, .title-main {
     font-weight: 700;
     font-size: 56px;
@@ -161,17 +156,20 @@ img {
     max-width: 100%;
 }
 
+/* Футер */
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
 
-span { 
-    color:#f4f4fd;
-}
 footer .logo_studio {
     color: #F4F4FD;
 }
+
 footer .logo_web {
     color: #4d5ae5;
+}
+
+span { 
+    color: #f4f4fd;
 }
