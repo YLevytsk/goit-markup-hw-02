@@ -127,6 +127,18 @@ address > ul {
 ul {
     list-style-type: none;
 }
+.section-skills {
+    width: 1128px; /* Ширина секции */
+    height: 104px; /* Высота секции */
+    top: 792px; /* Позиция сверху */
+    left: 156px; /* Позиция слева */
+    gap: 0; /* Расстояние между элементами внутри секции */
+    opacity: 1; /* Прозрачность секции (измените на 1, если нужно) */
+    position: absolute; /* Позиционирование */
+    background-color: #F4F4FD; /* Цвет фона */
+    padding: 40px; /* Отступы */
+}
+
 
 .section-furst {
     background-color: #2e2f42;
