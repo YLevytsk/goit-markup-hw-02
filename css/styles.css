@@ -22,6 +22,16 @@ h2, .heder2, .team-title {
     text-transform: capitalize;
     color: #2e2f42;
 }
+/* Основной цвет текста для ссылок в первом пункте списка */
+.features-list a {
+    color: #2e2f42; /* Цвет текста */
+}
+
+/* Цвет текста при наведении на ссылку */
+.features-list a:hover,
+.features-list a:focus {
+    color: #404bbf; /* Цвет текста при наведении или фокусе */
+}
 
 .team-item-title {
     font-weight: 500;
