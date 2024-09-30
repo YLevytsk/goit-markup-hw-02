@@ -29,19 +29,24 @@ h2, .heder2 {
 }
 
 /* Лого */
-.logo_Web, .logo_Studio {
+.logo_web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5; /* Основная часть логотипа */
 }
-.logo_Web {
-    color: #4d5ae5;
-}
-.logo_Studio {
-    color: #2e2f42;
+
+.logo_studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42; /* Часть логотипа "studio" */
 }
 
 /* Стили для меню */
@@ -150,6 +155,6 @@ img {
 span { 
     color:#f4f4fd;
 }
-footer .logo_Studio {
+footer .logo_studio {
     color: #F4F4FD;
 }
