@@ -29,7 +29,7 @@ h2, .heder2 {
 }
 
 /* Лого */
-.logo-1, .logo-2 {
+.logo_Web, .logo_Studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -37,10 +37,10 @@ h2, .heder2 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo-1 {
+.logo_Web {
     color: #4d5ae5;
 }
-.logo-2 {
+.logo_Studio {
     color: #2e2f42;
 }
 
@@ -150,6 +150,6 @@ img {
 span { 
     color:#f4f4fd;
 }
-footer .logo-2 {
+footer .logo_Studio {
     color: #F4F4FD;
 }
