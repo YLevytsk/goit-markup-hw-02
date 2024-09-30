@@ -60,7 +60,10 @@ h2, .heder2 {
     margin-right: 40px;
     margin-top: 0;
 }
-
+.feature-list:first-child a:hover,
+.feature-list:first-child a:focus {
+  color: #404bbf;
+}
 /* Адрес */
 .address-list, .address-list-2 {
     display: flex;
