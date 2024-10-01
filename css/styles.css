@@ -432,3 +432,7 @@ span {
     text-align: center; /* Выравнивание текста по центру */
     margin: 0; /* Убираем отступы для описания */
 }
+.section-third {
+    background-color: #F4F4FD;
+    text-align: center;
+}
