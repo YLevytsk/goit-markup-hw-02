@@ -193,24 +193,17 @@ h2, .heder2, .team-title {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
 
-/* Секции */
-.section-skills {
-    width: 1128px; /* Ширина секции */
-    height: 104px; /* Высота секции */
-    position: relative; /* Позиционирование */
-    top: 792px; /* Смещение сверху */
-    left: 156px; /* Смещение слева */
-    gap: 0; /* Отступы между элементами (если используются flex или grid) */
-    opacity: 1; /* Полная видимость секции */
-}
-
-.section-furst {
+.title-section {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
+    
 }
-
+.h1 {
+  font-size: 56px;           /* Размер шрифта заголовка */
+  line-height: 1.07;        /* Высота строки */
+  text-align: center;       /* Выравнивание текста по центру */
+  letter-spacing: 0.02em;   /* Расстояние между буквами */
+  color: #ffffff;           /* Цвет шрифта */
+}
 /* Тексты */
 .text-hero, .title-main {
     font-weight: 700;
