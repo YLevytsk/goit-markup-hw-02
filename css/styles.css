@@ -211,7 +211,8 @@ h2, .heder2, .team-title {
 .logo_web, 
 .logo_studio, 
 .navi-link, 
-.contact-link {
+.contact-link, 
+.nav-list a {
     text-decoration: none;
 }
 /* Стили для меню */
