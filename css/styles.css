@@ -429,10 +429,6 @@ span {
     margin: 0; /* Убираем отступы для описания */
 }
 .section-third {
-    background-color: #F4F4FD;
-    text-align: center;
-}
-.team-section {
     width: 1440px; /* Ширина секции */
     height: 732px; /* Высота секции */
     background: #F4F4FD; /* Цвет фона секции */
