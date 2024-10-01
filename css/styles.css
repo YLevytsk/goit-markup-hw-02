@@ -251,6 +251,7 @@ h2, .heder2, .team-title {
 
 /* Кнопка */
 .button-hero {
+    font-family: "Roboto", sans-serif;
     background: #4D5AE5;
     font-family: "Roboto", sans-serif;/* Цвет кнопки */
     font-weight: 500;
