@@ -46,23 +46,24 @@ h2, .heder2, .team-title {
     color: #2e2f42; /* Цвет текста для адресов */
 }
 
-/* Цвет текста для адресов при наведении или фокусе */
-.address-list:hover,
-.address-list:focus,
-.adress-list-2:hover,
-.adress-list-2:focus {
-    color: #404bbf; /* Цвет текста при наведении */
-}
+/* Убираем курсив и подчеркивание для ссылок контактной информации */
+.address-list a, 
+.adress-list-2 a, 
 .contact-link {
     font-style: normal; /* Убираем курсив */
     text-decoration: none; /* Убираем подчеркивание */
     color: inherit; /* Оставляем цвет текста такой, как у родительского элемента */
 }
 
-.contact-link:hover, .contact-link:focus {
+/* Цвет текста при наведении или фокусе */
+.address-list a:hover, 
+.address-list a:focus, 
+.adress-list-2 a:hover, 
+.adress-list-2 a:focus, 
+.contact-link:hover, 
+.contact-link:focus {
     color: #404BBF; /* Цвет текста при наведении */
 }
-
 .adress-box {
     font-style: normal; /* Установка нормального начертания */
 }
