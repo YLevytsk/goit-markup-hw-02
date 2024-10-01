@@ -53,6 +53,15 @@ h2, .heder2, .team-title {
 .adress-list-2:focus {
     color: #404bbf; /* Цвет текста при наведении */
 }
+.contact-link {
+    font-style: normal; /* Убираем курсив */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Оставляем цвет текста такой, как у родительского элемента */
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: #404BBF; /* Цвет текста при наведении */
+}
 
 .adress-box {
     font-style: normal; /* Установка нормального начертания */
