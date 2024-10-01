@@ -439,20 +439,6 @@ span {
     gap: 0;
     opacity: 1;
 }
-
-.team-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 32px 0;
-    background: #2E2F42;
-    padding: 16px;
-    width: 100%;
-    box-sizing: border-box;
-}
 .team-container {
     background-color: #F4F4FD;
     text-align: center;}
