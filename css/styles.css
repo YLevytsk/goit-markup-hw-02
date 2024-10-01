@@ -353,16 +353,12 @@ span {
     color: #f4f4fd;
 }
 /* Секция преимуществ "Our advantages" */
+/* Скрываем заголовок секции */
 .none-text-section {
-    font-size: 36px; /* Размер заголовка секции */
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    text-align: left;
+    display: none; /* Скрываем заголовок */
 }
 
+/* Секция преимуществ "Our advantages" */
 .skills-list {
     list-style-type: none; /* Убираем маркеры списка */
     padding: 0; /* Убираем отступы списка */
