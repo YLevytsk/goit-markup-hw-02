@@ -252,7 +252,6 @@ h2, .heder2, .team-title {
 /* Кнопка */
 .button-hero {
     background: #4D5AE5; /* Цвет кнопки */
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -266,6 +265,7 @@ h2, .heder2, .team-title {
 }
 /* Стили для заголовка секции */
 .section_title {
+    font-family: "Roboto", sans-serif;
     font-size: 56px; /* Размер шрифта заголовка */
     line-height: 1.07; /* Высота строки */
     text-align: center; /* Выравнивание текста по центру */
