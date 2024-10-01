@@ -257,7 +257,7 @@ h2, .heder2, .team-title {
 }
 
 /* Кнопка */
-.button-hero {
+.button_hero {
     font-family: "Roboto", sans-serif;
     background: #4D5AE5;/* Цвет кнопки */
     font-weight: 500;
@@ -267,18 +267,19 @@ h2, .heder2, .team-title {
     color: #FFFFFF; /* Цвет текста в кнопке */
     cursor: pointer;
 }
-.button-hero:hover,
-.button-hero:focus {
+.button_hero:hover,
+.button_hero:focus {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
 /* Стили для заголовка секции */
 .section_title {
-    font-size: 56px; /* Размер шрифта заголовка */
-    line-height: 1.07; /* Высота строки */
-    text-align: center; /* Выравнивание текста по центру */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #ffffff; /* Цвет шрифта */
+    font-size: 56px; 
+    line-height: 1.07; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    color: #ffffff; 
 }
+
 
 .title_section {
     background-color: #2e2f42; /* Фоновый цвет секции */
