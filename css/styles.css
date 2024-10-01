@@ -31,7 +31,6 @@ h2, .heder2, .team-title {
     color: #2e2f42; /* Цвет текста по умолчанию */
 }
 
-/* Цвет текста при наведении и фокусе */
 .feature-list a:hover,
 .feature-list a:focus,
 .features-list a:hover,
@@ -44,18 +43,19 @@ h2, .heder2, .team-title {
 /* Цвет текста для адресов */
 .address-list, .adress-list-2 {
     color: #2e2f42; /* Цвет текста для адресов */
+    display: flex;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
-/* Цвет текста для адресов при наведении или фокусе */
-.address-list:hover,
-.address-list:focus,
-.adress-list-2:hover,
-.adress-list-2:focus {
-    color: #404bbf; /* Цвет текста при наведении */
+.address-list {
+    margin-left: 332px;   
 }
 
-.adress-box {
-    font-style: normal; /* Установка нормального начертания */
+.address-list-2 {
+    margin-right: 156px;
 }
 
 /* Логотип */
@@ -90,24 +90,6 @@ h2, .heder2, .team-title {
 
 .features-list, .feature-list {
     margin-right: 40px;
-}
-
-/* Адрес */
-.address-list, .address-list-2 {
-    display: flex;
-    margin-top: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.address-list {
-    margin-left: 332px;   
-}
-
-.address-list-2 {
-    margin-right: 156px;
 }
 
 /* Команда */
