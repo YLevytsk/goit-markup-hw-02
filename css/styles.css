@@ -257,7 +257,7 @@ h2, .heder2, .team-title {
 }
 
 /* Кнопка */
-.button_hero {
+.button-hero {
     font-family: "Roboto", sans-serif;
     background: #4D5AE5;/* Цвет кнопки */
     font-weight: 500;
@@ -267,8 +267,8 @@ h2, .heder2, .team-title {
     color: #FFFFFF; /* Цвет текста в кнопке */
     cursor: pointer;
 }
-.button_hero:hover,
-.button_hero:focus {
+.button-hero:hover,
+.button-hero:focus {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
 /* Стили для заголовка секции */
