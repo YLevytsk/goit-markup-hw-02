@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF; /* Цвет фона */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 16px;-------------проверь стили на конфликты 
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -31,6 +31,7 @@ h2, .heder2, .team-title {
     color: #2e2f42; /* Цвет текста по умолчанию */
 }
 
+/* Цвет текста при наведении и фокусе */
 .feature-list a:hover,
 .feature-list a:focus,
 .features-list a:hover,
@@ -43,19 +44,18 @@ h2, .heder2, .team-title {
 /* Цвет текста для адресов */
 .address-list, .adress-list-2 {
     color: #2e2f42; /* Цвет текста для адресов */
-    display: flex;
-    margin-top: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
 }
 
-.address-list {
-    margin-left: 332px;   
+/* Цвет текста для адресов при наведении или фокусе */
+.address-list:hover,
+.address-list:focus,
+.adress-list-2:hover,
+.adress-list-2:focus {
+    color: #404bbf; /* Цвет текста при наведении */
 }
 
-.address-list-2 {
-    margin-right: 156px;
+.adress-box {
+    font-style: normal; /* Установка нормального начертания */
 }
 
 /* Логотип */
@@ -92,6 +92,150 @@ h2, .heder2, .team-title {
     margin-right: 40px;
 }
 
+/* Адрес */
+.address-list, .address-list-2 {
+    display: flex;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-list {
+    margin-left: 332px;   
+}
+
+.address-list-2 {
+    margin-right: 156px;
+}
+
+/* Команда */
+.team-item-title, .team-item-description {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-item-description {
+    font-weight: 400;
+    color: #434455;  
+}
+
+/* Кнопка */
+/* Общие стили для текста */
+body {
+    color: #434455;
+    background-color: #FFFFFF; /* Цвет фона */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+
+/* Заголовки общего назначения */
+h2, .heder2, .team-title {
+    font-weight: 700;
+    font-size: 36px; /* Размер для h2 и .heder2 */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Стили для ссылок */
+.feature-list a,
+.features-list a,
+.main-page-link {
+    font-weight: 500;
+    color: #2e2f42; /* Цвет текста по умолчанию */
+}
+
+/* Цвет текста при наведении и фокусе */
+.feature-list a:hover,
+.feature-list a:focus,
+.features-list a:hover,
+.features-list a:focus,
+.main-page-link:hover,
+.main-page-link:focus {
+    color: #404bbf; /* Цвет текста при наведении */
+}
+
+/* Цвет текста для адресов */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
+}
+
+/* Цвет текста для адресов при наведении или фокусе */
+.address-list:hover,
+.address-list:focus,
+.adress-list-2:hover,
+.adress-list-2:focus {
+    color: #404bbf; /* Цвет текста при наведении */
+}
+
+.adress-box {
+    font-style: normal; /* Установка нормального начертания */
+}
+
+/* Логотип */
+.logo_web, .logo_studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo_web {
+    color: #4d5ae5; /* Основная часть логотипа */
+}
+
+.logo_studio {
+    color: #2e2f42; /* Часть логотипа "studio" */
+}
+
+/* Стили для меню */
+.header-container {
+    height: 72px;
+    display: flex;
+}
+
+.features {
+    display: flex;
+    margin-top: 0;
+    margin-left: 76px;
+}
+
+.features-list, .feature-list {
+    margin-right: 40px;
+}
+
+/* Адрес */
+.address-list, .address-list-2 {
+    display: flex;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-list {
+    margin-left: 332px;   
+}
+
+.address-list-2 {
+    margin-right: 156px;
+}
+
 /* Команда */
 .team-item-title, .team-item-description {
     font-size: 20px;
@@ -116,6 +260,49 @@ h2, .heder2, .team-title {
     color: #FFFFFF; /* Цвет текста в кнопке */
     cursor: pointer;
 }
+
+.button-hero:hover,
+.button-hero:focus {
+    background: #404BBF; /* Цвет кнопки при наведении */
+}
+
+/* Стили для заголовка секции */
+.section_title {
+    font-size: 56px; /* Размер шрифта заголовка */
+    line-height: 1.07; /* Высота строки */
+    text-align: center; /* Выравнивание текста по центру */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #ffffff; /* Цвет шрифта */
+}
+
+.title_section {
+    background-color: #2e2f42; /* Фоновый цвет секции */
+}
+
+/* Изображения */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Футер */
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+footer .logo_studio {
+    color: #F4F4FD;
+}
+
+footer .logo_web {
+    color: #4d5ae5;
+}
+
+span { 
+    color: #f4f4fd;
+}
+
 
 .button-hero:hover,
 .button-hero:focus {
