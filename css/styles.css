@@ -179,23 +179,30 @@ h2, .heder2, .team-title {
 
 /* Кнопка */
 .button-hero {
-    background: #4D5AE5; /* Цвет кнопки */
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif;/* Цвет кнопки */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+
 }
 
 .button-hero:hover,
 .button-hero:focus {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
-
-.title-section {
-    background-color: #2e2f42;
-    
+.section_title {
+  font-size: 56px;           /* Размер шрифта заголовка */
+  line-height: 1.07;        /* Высота строки */
+  text-align: center;       /* Выравнивание текста по центру */
+  letter-spacing: 0.02em;   /* Расстояние между буквами */
+  color: #ffffff;           /* Цвет шрифта */
+}
+.title_section {
+  background-color: #2e2f42; /* Фоновый цвет секции */
 }
 .h1 {
   font-size: 56px;           /* Размер шрифта заголовка */
