@@ -428,7 +428,7 @@ span {
     text-align: center; /* Выравнивание текста по центру */
     margin: 0; /* Убираем отступы для описания */
 }
-.section-third  {
+.team-container  {
     width: 1440px;
     height: 732px;
     background: #F4F4FD;
