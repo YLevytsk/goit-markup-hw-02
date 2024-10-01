@@ -428,28 +428,28 @@ span {
     text-align: center; /* Выравнивание текста по центру */
     margin: 0; /* Убираем отступы для описания */
 }
-.section-third {
-    width: 1440px; /* Ширина секции */
-    height: 732px; /* Высота секции */
-    background: #F4F4FD; /* Цвет фона секции */
-    padding: 32px; /* Отступы вокруг содержимого секции */
-    display: flex; /* Используем flexbox для компоновки */
-    flex-direction: column; /* Вертикальная компоновка */
-    align-items: center; /* Центрирование содержимого по горизонтали */
-    gap: 0; /* Промежуток между элементами в секции */
-    opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
-    position: relative; /* Для позиционирования дочерних элементов, если потребуется */
+.section-third  {
+    width: 1440px;
+    height: 732px;
+    background: #F4F4FD;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    opacity: 1;
 }
+
 .team-title {
-    font-family: "Roboto", sans-serif; /* Шрифт заголовка */
-    font-size: 36px; /* Размер шрифта заголовка */
-    font-weight: 700; /* Жирность шрифта заголовка */
-    line-height: 40px; /* Высота строки для заголовка */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    text-align: center; /* Выравнивание текста по центру */
-    margin: 32px 0; /* Отступы сверху и снизу заголовка */
-    background: #2E2F42; /* Фоновый цвет заголовка */
-    padding: 16px; /* Отступы внутри заголовка */
-    width: 100%; /* Ширина заголовка на 100% для центрирования */
-    box-sizing: border-box; /* Учет отступов и границ в ширину */
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 32px 0;
+    background: #2E2F42;
+    padding: 16px;
+    width: 100%;
+    box-sizing: border-box;
 }
