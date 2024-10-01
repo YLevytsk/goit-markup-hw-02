@@ -260,12 +260,10 @@ h2, .heder2, .team-title {
     color: #FFFFFF; /* Цвет текста в кнопке */
     cursor: pointer;
 }
-
 .button-hero:hover,
 .button-hero:focus {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
-
 /* Стили для заголовка секции */
 .section_title {
     font-size: 56px; /* Размер шрифта заголовка */
@@ -303,11 +301,6 @@ span {
     color: #f4f4fd;
 }
 
-
-.button-hero:hover,
-.button-hero:focus {
-    background: #404BBF; /* Цвет кнопки при наведении */
-}
 
 /* Стили для заголовка секции */
 .section_title {
