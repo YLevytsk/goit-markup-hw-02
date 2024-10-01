@@ -208,7 +208,12 @@ h2, .heder2, .team-title {
 .logo_studio {
     color: #2e2f42; /* Часть логотипа "studio" */
 }
-
+.logo_web, 
+.logo_studio, 
+.navi-link, 
+.contact-link {
+    text-decoration: none;
+}
 /* Стили для меню */
 .header-container {
     height: 72px;
