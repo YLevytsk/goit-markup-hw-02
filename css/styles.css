@@ -126,7 +126,7 @@ ul {
 }
 
 /* Заголовки общего назначения */
-h2, .heder2, .team-title {
+h2, .heder2, .team-title, main-text {
     font-weight: 700;
     font-size: 36px; /* Размер для h2 и .heder2 */
     line-height: 1.11;
