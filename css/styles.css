@@ -81,17 +81,14 @@ h2, .heder2, .team-title {
     height: 72px;
     display: flex;
 }
-
 .features {
     display: flex;
     margin-top: 0;
     margin-left: 76px;
 }
-
 .features-list, .feature-list {
     margin-right: 40px;
 }
-
 /* Адрес */
 .address-list, .address-list-2 {
     display: flex;
@@ -101,11 +98,9 @@ h2, .heder2, .team-title {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .address-list {
     margin-left: 332px;   
 }
-
 .address-list-2 {
     margin-right: 156px;
 }
@@ -116,22 +111,9 @@ h2, .heder2, .team-title {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
 .team-item-description {
     font-weight: 400;
     color: #434455;  
-}
-
-/* Кнопка */
-/* Общие стили для текста */
-body {
-    color: #434455;
-    background-color: #FFFFFF; /* Цвет фона */
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 ul {
@@ -252,7 +234,6 @@ h2, .heder2, .team-title {
 .team-item-title, .team-item-description {
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
