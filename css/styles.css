@@ -431,13 +431,13 @@ span {
     padding: 32px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 0;
     opacity: 1;
 }
 .team-container {
     background-color: #F4F4FD;
-    text-align: center;}
+    }
  .team-title {
     font-family: "Roboto", sans-serif;
     font-size: 36px; /* Размер шрифта заголовка */
