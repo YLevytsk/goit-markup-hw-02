@@ -1,80 +1,57 @@
-/* Общие стили для текста */
 body {
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Цвет фона */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-.h1 {
-    font-size: 56px; 
-     font-weight: 500;         /* Размер шрифта заголовка */
-    line-height: 1.07;        /* Высота строки */
-    text-align: center;       /* Выравнивание текста по центру */
-    letter-spacing: 0.02em;   /* Расстояние между буквами */
-    color: #ffffff;     
-}
 /* Заголовки общего назначения */
-h2, .header2, .team-title, .main-text-section {
+h2, .heder2, .team-title {
     font-weight: 700;
-    font-size: 36px; /* Размер для h2, .header2, .team-title */
+    font-size: 36px; /* Размер для h2 и .heder2 */
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    text-align: center;
 }
-
-/* Стили для текста основного блока */
-.main-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-/* Стили для абзацев внутри основного блока */
-.p-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
 /* Стили для ссылок */
-.feature-list a, .features-list a, .main-page-link {
+.feature-list a,
+.features-list a,
+.main-page-link {
     font-weight: 500;
-    color: #2e2f42;
+    color: #2e2f42; /* Цвет текста по умолчанию */
 }
 
-.feature-list a:hover, 
-.feature-list a:focus, 
-.features-list a:hover, 
-.features-list a:focus, 
-.main-page-link:hover, 
+/* Цвет текста при наведении и фокусе */
+.feature-list a:hover,
+.feature-list a:focus,
+.features-list a:hover,
+.features-list a:focus,
+.main-page-link:hover,
 .main-page-link:focus {
     color: #404bbf; /* Цвет текста при наведении */
 }
 
+/* Убираем курсив и подчеркивание для контактных ссылок */
 .contact-link {
-    font-style: normal;
-    text-decoration: none;
-    color: inherit;
+    font-style: normal; /* Убираем курсив */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Сохраняем цвет родительского элемента */
 }
 
+/* Изменение цвета при наведении */
 .contact-link:hover, 
 .contact-link:focus {
-    color: #404BBF;
+    color: #404BBF; /* Цвет текста при наведении */
+}
+
+.adress-box {
+    font-style: normal; /* Установка нормального начертания */
 }
 
 /* Логотип */
@@ -88,28 +65,154 @@ h2, .header2, .team-title, .main-text-section {
 }
 
 .logo_web {
-    color: #4d5ae5;
+    color: #4d5ae5; /* Основная часть логотипа */
 }
 
 .logo_studio {
-    color: #2e2f42;
+    color: #2e2f42; /* Часть логотипа "studio" */
 }
 
 /* Стили для меню */
 .header-container {
-    height: 72px; /* Удалить если не требуется */
+    height: 72px;
+    display: flex;
+}
+.features {
+    display: flex;
+    margin-top: 0;
+    margin-left: 76px;
+}
+.features-list, .feature-list {
+    margin-right: 40px;
+}
+/* Адрес */
+.address-list, .address-list-2 {
+    display: flex;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-list {
+    margin-left: 332px;   
+}
+.address-list-2 {
+    margin-right: 156px;
+}
+
+/* Команда */
+.team-item-title, .team-item-description {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.team-item-description {
+    font-weight: 400;
+    color: #434455;  
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+.h1 {
+    font-size: 56px; 
+     font-weight: 500;         /* Размер шрифта заголовка */
+    line-height: 1.07;        /* Высота строки */
+    text-align: center;       /* Выравнивание текста по центру */
+    letter-spacing: 0.02em;   /* Расстояние между буквами */
+    color: #ffffff;           /* Цвет шрифта */
+}
+
+/* Заголовки общего назначения */
+h2, .heder2, .team-title, main-text {
+    font-weight: 700;
+    font-size: 36px; /* Размер для h2 и .heder2 */
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+}
+
+/* Стили для ссылок */
+.feature-list a,
+.features-list a,
+.main-page-link {
+    font-weight: 500;
+    color: #2e2f42; /* Цвет текста по умолчанию */
+}
+
+/* Цвет текста при наведении и фокусе */
+.feature-list a:hover,
+.feature-list a:focus,
+.features-list a:hover,
+.features-list a:focus,
+.main-page-link:hover,
+.main-page-link:focus {
+    color: #404bbf; /* Цвет текста при наведении */
+}
+
+/* Цвет текста для адресов */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
+}
+
+/* Цвет текста для адресов при наведении или фокусе */
+.address-list:hover,
+.address-list:focus,
+.adress-list-2:hover,
+.adress-list-2:focus {
+    color: #404bbf; /* Цвет текста при наведении */
+}
+
+.adress-box {
+    font-style: normal; /* Установка нормального начертания */
+}
+
+/* Логотип */
+.logo_web, .logo_studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo_web {
+    color: #4d5ae5; /* Основная часть логотипа */
+}
+
+.logo_studio {
+    color: #2e2f42; /* Часть логотипа "studio" */
+}
+.logo_web, 
+.logo_studio, 
+.navi-link, 
+.contact-link, 
+.nav-list a {
+    text-decoration: none;
+}
+/* Стили для меню */
+.header-container {
+    height: 72px;
+    display: flex;
 }
 
 .features {
-    margin-left: 76px; /* Удалить если не требуется */
+    display: flex;
+    margin-top: 0;
+    margin-left: 76px;
 }
 
 .features-list, .feature-list {
-    margin-right: 40px; /* Удалить если не требуется */
+    margin-right: 40px;
 }
 
 /* Адрес */
 .address-list, .address-list-2 {
+    display: flex;
     margin-top: 24px;
     font-weight: 400;
     font-size: 16px;
@@ -117,11 +220,12 @@ h2, .header2, .team-title, .main-text-section {
     color: #434455;
 }
 
-.address-list:hover, 
-.address-list:focus, 
-.address-list-2:hover, 
-.address-list-2:focus {
-    color: #404bbf; /* Цвет текста при наведении */
+.address-list {
+    margin-left: 332px;   
+}
+
+.address-list-2 {
+    margin-right: 156px;
 }
 
 /* Команда */
@@ -133,28 +237,13 @@ h2, .header2, .team-title, .main-text-section {
 
 .team-item-description {
     font-weight: 400;
-    color: #434455;
-}
-
-.team-item {
-    background: #FFFFFF;
-    opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
-}
-
-.team-item-image {
-    max-width: 100%; /* Ограничиваем ширину изображения */
-    height: auto; /* Сохраняем пропорции изображения */
-}
-
-.team-container {
-    background-color: #F4F4FD;
-    opacity: 1;
+    color: #434455;  
 }
 
 /* Кнопка */
 .button-hero {
     font-family: "Roboto", sans-serif;
-    background: #4D5AE5; /* Цвет кнопки */
+    background: #4D5AE5;/* Цвет кнопки */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -162,48 +251,28 @@ h2, .header2, .team-title, .main-text-section {
     color: #FFFFFF; /* Цвет текста в кнопке */
     cursor: pointer;
 }
-
 .button-hero:hover,
 .button-hero:focus {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
-
-/* Стили для секции преимуществ "Our advantages" */
-.advantages-section {
-    margin: 40px auto; /* Центрируем секцию и добавляем отступ сверху и снизу */
-    opacity: 1; /* Делаем секцию видимой */
+/* Стили для заголовка секции */
+.section_title {
+    font-size: 56px; 
+    line-height: 1.07; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    color: #ffffff; 
 }
 
-/* Стили для списка навыков */
-.skills-list {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы списка */
+
+.title_section {
+    background-color: #2e2f42; /* Фоновый цвет секции */
 }
 
-.skills-item {
-    margin-bottom: 24px; /* Отступ между элементами списка */
-}
-
-.skills-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px; /* Размер заголовка навыка */
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.skills-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px; /* Размер текста под заголовком */
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.skills-item:last-child {
-    margin-bottom: 0; /* Убираем нижний отступ для последнего элемента */
+/* Изображения */
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Футер */
@@ -224,8 +293,162 @@ span {
     color: #f4f4fd;
 }
 
-/* Стили для изображений */
+
+/* Стили для заголовка секции */
+.section_title {
+    font-size: 56px; /* Размер шрифта заголовка */
+    line-height: 1.07; /* Высота строки */
+    text-align: center; /* Выравнивание текста по центру */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #ffffff; /* Цвет шрифта */
+}
+
+.title_section {
+    background-color: #2e2f42; /* Фоновый цвет секции */
+}
+
+/* Изображения */
 img {
     display: block;
     max-width: 100%;
+}
+
+/* Футер */
+.footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+footer .logo_studio {
+    color: #F4F4FD;
+}
+
+footer .logo_web {
+    color: #4d5ae5;
+}
+
+span { 
+    color: #f4f4fd;
+}
+
+/* Секция преимуществ "Our advantages" */
+.advantages-section {
+    width: 1128px; /* Ширина секции */
+    height: auto; /* Высота секции будет определяться содержимым */
+    margin: 40px auto; /* Центрируем секцию и добавляем отступ сверху и снизу */
+    opacity: 1; /* Делаем секцию видимой */
+}
+/* Стили для списка навыков */
+.skills-list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы списка */
+}
+
+.skills-item {
+    margin-bottom: 24px; /* Отступ между элементами списка */
+}
+
+.skills-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px; /* Размер заголовка навыка */
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: left;
+}
+
+.skills-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px; /* Размер текста под заголовком */
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: left;
+}
+
+.skills-item:last-child {
+    margin-bottom: 0; /* Убираем нижний отступ для последнего элемента */
+}
+.team-item {
+    width: 264;/* Высота карточки */
+    background: #FFFFFF; /* Цвет фона карточки */
+    padding: 0 0 32px 0; /* Отступы снизу */
+  
+    
+    opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
+}
+
+.team-item-image {
+    max-width: 100%; /* Ограничиваем ширину изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+}
+
+.team-item-title {
+    font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
+    font-size: 20px; /* Размер шрифта заголовка */
+    font-weight: 500; /* Жирность шрифта заголовка */
+    line-height: 24px; /* Высота строки для заголовка */
+    color: #2e2f42; /* Цвет заголовка */
+    margin: 16px 0; /* Отступы сверху и снизу заголовка */
+}
+
+.team-item-description {
+    font-family: "Roboto", sans-serif; /* Шрифт для описания */
+    font-size: 16px; /* Размер шрифта описания */
+    font-weight: 400; /* Жирность шрифта описания */
+    line-height: 24px; /* Высота строки для описания */
+    color: #434455; /* Цвет описания */
+    margin: 0; /* Убираем отступы для описания */
+}
+.team-container  {
+    background: #F4F4FD;
+    padding: 32px;
+    opacity: 1;
+}
+.team-container {
+    background-color: #F4F4FD;
+    }
+ .team-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px; /* Размер шрифта заголовка */
+    font-weight: 700; /* Жирность шрифта заголовка */
+    line-height: 40px; /* Высота строки для заголовка */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+   text-align: center;
+ }
+.studio {
+    color: #F4F4FD;
+} 
+.section-third {
+    background-color: #F4F4FD;  
+}
+main-text-section {
+ font-family: "Roboto",sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+main-text {
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+background: #2E2F42;
+
+}
+p-text {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+ background: #434455;
+
 }
