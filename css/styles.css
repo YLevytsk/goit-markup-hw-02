@@ -12,7 +12,14 @@ body {
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-
+.h1 {
+    font-size: 56px; 
+     font-weight: 500;         /* Размер шрифта заголовка */
+    line-height: 1.07;        /* Высота строки */
+    text-align: center;       /* Выравнивание текста по центру */
+    letter-spacing: 0.02em;   /* Расстояние между буквами */
+    color: #ffffff;     
+}
 /* Заголовки общего назначения */
 h2, .header2, .team-title, .main-text-section {
     font-weight: 700;
