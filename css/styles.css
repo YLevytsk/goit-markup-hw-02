@@ -449,4 +449,15 @@ span {
     line-height: 40px; /* Высота строки для заголовка */
     letter-spacing: 0.02em; /* Расстояние между буквами */
     text-align: center;
- } 
+ }
+ .section-fourth {
+    text-align: center;
+}
+
+.studio {
+    color: #F4F4FD;
+} 
+.section-third {
+    background-color: #F4F4FD;
+    text-align: center;
+}
