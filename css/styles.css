@@ -360,7 +360,6 @@ span {
     margin: 40px auto; /* Центрируем секцию и добавляем отступ сверху и снизу */
     opacity: 1; /* Делаем секцию видимой */
 }
-
 /* Стили для списка навыков */
 .skills-list {
     list-style-type: none; /* Убираем маркеры списка */
@@ -395,8 +394,7 @@ span {
     margin-bottom: 0; /* Убираем нижний отступ для последнего элемента */
 }
 .team-item {
-    width: 264px; /* Ширина карточки */
-    height: 380px; /* Высота карточки */
+    /* Высота карточки */
     background: #FFFFFF; /* Цвет фона карточки */
     padding: 0 0 32px 0; /* Отступы снизу */
     display: flex; /* Для вертикального выравнивания элементов */
@@ -429,8 +427,6 @@ span {
     margin: 0; /* Убираем отступы для описания */
 }
 .team-container  {
-    width: 1440px;
-    height: 732px;
     background: #F4F4FD;
     padding: 32px;
     display: flex;
