@@ -8,11 +8,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-
 /* Заголовки общего назначения */
 h2, .heder2, .team-title {
     font-weight: 700;
@@ -22,7 +20,6 @@ h2, .heder2, .team-title {
     text-transform: capitalize;
     color: #2e2f42;
 }
-
 /* Стили для ссылок */
 .feature-list a,
 .features-list a,
