@@ -120,7 +120,8 @@ ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
 .h1 {
-    font-size: 56px;           /* Размер шрифта заголовка */
+    font-size: 56px; 
+     font-weight: 500;         /* Размер шрифта заголовка */
     line-height: 1.07;        /* Высота строки */
     text-align: center;       /* Выравнивание текста по центру */
     letter-spacing: 0.02em;   /* Расстояние между буквами */
