@@ -65,8 +65,8 @@ letter-spacing: 0.02em;
 
 /* Стилі для hover та focus */
 .navi-link-menu:hover,
-.navi-link-menu:focus,  
-.contact-link-menu:hover, /* Видалено зайвий префікс .navi-link */
+.navi-link-menu:focus, 
+.navi-link.link-menu:hover,
 .navi-link.link-menu:focus, 
 .contact-link:focus, /* Видалено зайвий префікс .navi-link */
 .contact-link:hover, { /* Видалено зайвий префікс .navi-link */
