@@ -108,7 +108,7 @@ letter-spacing: 0.02em;
     color: #404bbf; /* Цвет текста при наведении */
 }
 
-.h1 {
+h1 {
     font-size: 56px; 
      font-weight: 500;         /* Размер шрифта заголовка */
     line-height: 1.07;        /* Высота строки */
@@ -164,7 +164,7 @@ span {
 }
 
 /* Футер */
-.footer {
+footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
@@ -261,23 +261,22 @@ text-align: left;
 background: #2E2F42;
 }
 /* Футер */
-.footer {
+footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
 
-.footer .logo_studio {
+footer .logo_studio {
     color: #F4F4FD;
 }
 
-.footer .logo_web {
+footer .logo_web {
     color: #4d5ae5;
 }
 
-.span { 
+span { 
     color: #f4f4fd;
 }
 .section-skills {
-  background-color:  #FFFFFF;
-;   
+  background-color:  #FFFFFF;   
 }
