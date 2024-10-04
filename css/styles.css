@@ -62,30 +62,32 @@ contact-link-m, .contact-link-p {
 .navi-link, 
 .navi-link.contacts-link, 
 .navi-link.portfolio-link, 
-.navi-link.studio-link
-.navi-link.contact-link-m,
-.navi-link.contact-link-m {
+.navi-link.studio-link,
+.contact-link-m,  /* Видалено зайвий префікс .navi-link */
+.contact-link-p { /* Видалено зайвий префікс .navi-link */
     color: #2e2f42; 
-    font-weight: 500;/* Колір за умовчанням */
+    font-weight: 500; /* Колір за умовчанням */
 }
 
+/* Стилі для hover та focus */
 .navi-link:hover,
 .navi-link:focus, 
 .navi-link.studio-link:hover, 
 .navi-link.portfolio-link:hover, 
-.navi-link.contacts-link-m:hover,
-.navi-link.contacts-link-p:hover,
+.contact-link-m:hover, /* Видалено зайвий префікс .navi-link */
+.contact-link-p:hover, /* Видалено зайвий префікс .navi-link */
 .navi-link.studio-link:focus, 
 .navi-link.portfolio-link:focus, 
-.navi-link.contacts-link-m:focus,
-.navi-link.contacts-link-p:focus
-{
+.contact-link-m:focus, /* Видалено зайвий префікс .navi-link */
+.contact-link-p:focus { /* Видалено зайвий префікс .navi-link */
     color: #404bbf; /* Колір при ховері та фокусі */
 }
 
+/* Застосування жирного шрифту до першого елемента списку */
 .nav-list li:first-child .navi-link {
     font-weight: 500;
 }
+
 
 /* Стили для блока features */
 .features {
