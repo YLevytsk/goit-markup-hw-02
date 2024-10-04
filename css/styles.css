@@ -200,7 +200,9 @@ h2, .heder2, .team-title, main-text {
     height: 72px;
     display: flex;
 }
-
+.nav-list li:first-child .navi-link {
+    font-weight: 500;
+}
 .features {
     display: flex;
     margin-top: 0;
