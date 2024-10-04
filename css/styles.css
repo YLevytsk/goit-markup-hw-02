@@ -146,17 +146,17 @@ span {
     color: #f4f4fd;
 }
 /* Кнопка */
-.button-hero {
-    background-color:#4D5AE5;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    text-align: left;
-    color: #FFFFFF;
-
+.button_hero {
+    font-family: "Roboto", sans-serif; /* Шрифт кнопки */
+    background-color: #4D5AE5; /* Цвет кнопки */
+    color: #FFFFFF; /* Цвет текста в кнопке */
+    font-weight: 500; /* Жирность текста */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Междустрочный интервал */
+    letter-spacing: 0.04em; /* Расстояние между буквами */
+    cursor: pointer; 
 }
+
 .button-hero:hover,
 .button-hero:focus {
  background: #404BBF;
