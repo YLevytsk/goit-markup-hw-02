@@ -332,10 +332,6 @@ span {
     color: #f4f4fd;
 }
 
-/* Секция преимуществ "Our advantages" */
-.advantages-section {
-    background-color: #2e2f42
-}
 /* Стили для списка навыков */
 .skills-list {
     list-style-type: none; /* Убираем маркеры списка */
