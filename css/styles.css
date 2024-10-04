@@ -203,6 +203,11 @@ span {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+.team-item {
+    width: 264;/* Высота карточки */
+    background: #FFFFFF; /* Цвет фона карточки */
+    opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
+}
 
 
 .title_section {
