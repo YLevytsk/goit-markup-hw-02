@@ -331,7 +331,10 @@ footer .logo_web {
 span { 
     color: #f4f4fd;
 }
-
+section-skills {
+  background-color:  #FFFFFF;
+;   
+}
 /* Стили для списка навыков */
 .skills-list {
     list-style-type: none; /* Убираем маркеры списка */
