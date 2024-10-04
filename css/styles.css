@@ -102,7 +102,9 @@ color: #404bbf;
 .main-page-link:focus {
     color: #404bbf; /* Цвет текста при наведении */
 }
-
+title_section { 
+    background-color: #2e2f42;
+}
 h1 {
     font-size: 56px; 
      font-weight: 500;         /* Размер шрифта заголовка */
