@@ -106,12 +106,13 @@ title_section {
     background-color: #2e2f42;
 }
 h1 {
-    font-size: 56px; 
-     font-weight: 500;         /* Размер шрифта заголовка */
-    line-height: 1.07;        /* Высота строки */
-    text-align: center;       /* Выравнивание текста по центру */
-    letter-spacing: 0.02em;   /* Расстояние между буквами */
-    color: #ffffff;           /* Цвет шрифта */
+font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+    color: #ffffff;    
 }
 /* Заголовки общего назначения */
 h3, .heder, .team-item-title,main-text {
