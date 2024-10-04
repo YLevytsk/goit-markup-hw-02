@@ -64,7 +64,9 @@ text-decoration: none;
 
 /* Стилі для hover та focus */
 .navi-link-menu:hover,
-.navi-link-menu:focus,  
+.navi-link-menu:focus  { 
+    color: #404bbf;
+}  
 .contact-link:focus, 
 .contact-link:hover
  { 
