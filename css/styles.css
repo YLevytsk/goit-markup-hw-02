@@ -10,35 +10,24 @@ body {
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-.contact-link-p,
-.contact-link-m
+.contact-link,
+.contact-link
  { font-style: normal; /* Убираем курсив */
     text-decoration: none; /* Убираем подчеркивание */
     color: inherit;
 }
-/* Цвет текста для адресов */
-.address-list, .adress-list-2 {
-    color: #2e2f42; /* Цвет текста для адресов */
-}
-.contact-link-p {
+
+.contact-link {
     color:#434455;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
-/* Цвет текста для адресов при наведении или фокусе */
-.address-list:hover,
-.address-list:focus,
-.adress-list-2:hover,
-.adress-list-2:focus {
-    color: #404bbf; /* Цвет текста при наведении */
-}
-/* Цвет текста для адресов */
-.contact-link-m, .contact-link-p {
-    color: #2e2f42; /* Цвет текста для адресов */
-}
-
 /* Логотип */
 .logo_web, .logo_studio {
     font-family: "Raleway", sans-serif;
@@ -65,30 +54,24 @@ ul {
     
 }
 /* Основні стилі для посилань в навігації */
-.navi-link, 
-.navi-link.contacts-link, 
-.navi-link.portfolio-link, 
-.navi-link.studio-link,
-.contact-link-m,  /* Видалено зайвий префікс .navi-link */
-.contact-link-p { /* Видалено зайвий префікс .navi-link */
-    color: #2e2f42; 
-    font-weight: 500; /* Колір за умовчанням */
+.navi-link-menu {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;  
 }
 
 /* Стилі для hover та focus */
-.navi-link:hover,
-.navi-link:focus, 
-.navi-link.studio-link:hover, 
-.navi-link.portfolio-link:hover, 
-.contact-link-m:hover, /* Видалено зайвий префікс .navi-link */
-.contact-link-p:hover, /* Видалено зайвий префікс .navi-link */
-.navi-link.studio-link:focus, 
-.navi-link.portfolio-link:focus, 
-.contact-link-m:focus, /* Видалено зайвий префікс .navi-link */
-.contact-link-p:focus { /* Видалено зайвий префікс .navi-link */
+.navi-link-menu:hover,
+.navi-link-menu:focus,  
+.contact-link-menu:hover, /* Видалено зайвий префікс .navi-link */
+.navi-link.link-menu:focus, 
+.contact-link:focus, /* Видалено зайвий префікс .navi-link */
+.contact-link:hover, { /* Видалено зайвий префікс .navi-link */
     color: #404bbf; /* Колір при ховері та фокусі */
 }
-
 /* Застосування жирного шрифту до першого елемента списку */
 .nav-list li:first-child .navi-link {
     font-weight: 500;
