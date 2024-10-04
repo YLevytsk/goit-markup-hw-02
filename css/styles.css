@@ -10,12 +10,12 @@ body {
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-.contact-link,
-.contact-link
- { font-style: normal; /* Убираем курсив */
+.contact-link {
+    color: #2e2f42; /* Цвет текста по умолчанию */
     text-decoration: none; /* Убираем подчеркивание */
-    color: inherit;
+    font-weight: normal; /* Нормальный текст */
 }
+
 
 .contact-link {
     color:#434455;
