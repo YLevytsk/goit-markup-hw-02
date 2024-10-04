@@ -82,7 +82,7 @@ ul {
     font-weight: 500;
     color: #2e2f42; /* Цвет текста по умолчанию */
 }
-
+.address { font-style: normal }
 /* Цвет текста при наведении и фокусе */
 .feature-list a:hover,
 .feature-list a:focus,
