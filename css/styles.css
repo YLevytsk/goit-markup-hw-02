@@ -136,7 +136,7 @@ letter-spacing: 0.02em;
 }
 
 /* Стили для заголовка секции */
-h2,.section-title {
+h2 {
 font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
