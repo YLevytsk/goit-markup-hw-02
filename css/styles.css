@@ -136,8 +136,8 @@ text-align: center;
     letter-spacing: 0.04em; /* Расстояние между буквами */
     cursor: pointer; 
 }
-.button-hero:hover,
-.button-hero:focus {
+.button_hero:hover,
+.button_hero:focus {
     background-color: #404BBF;
 }
 h3, .heder, .team-item-title,main-text {
