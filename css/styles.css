@@ -200,12 +200,12 @@ h2, .heder2, .team-title, main-text {
     height: 72px;
     display: flex;
 }
-.navi-link {
+.navi-link, navi-link contacts-link,navi-link portfolio-link,navi-link studio-link {
     color: #2e2f42; /* Колір за умовчанням */
 }
 
 .navi-link:hover,
-.navi-link:focus {
+.navi-link:focus, navi-link studio-link,navi-link portfolio-link,navi-link contacts-link {
     color: #404bbf; /* Колір при ховері та фокусі */
 }
 .nav-list li:first-child .navi-link {
