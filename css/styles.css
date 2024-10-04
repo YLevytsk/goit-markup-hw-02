@@ -98,18 +98,6 @@ ul {
     color: #404bbf; /* Цвет текста при наведении */
 }
 
-
-/* Цвет текста для адресов при наведении или фокусе */
-.address-list:hover,
-.address-list:focus,
-.adress-list-2:hover,
-.adress-list-2:focus {
-    color: #404bbf; /* Цвет текста при наведении */
-}
-
-.adress-box {
-    font-style: normal; /* Установка нормального начертания */
-}
 .h1 {
     font-size: 56px; 
      font-weight: 500;         /* Размер шрифта заголовка */
