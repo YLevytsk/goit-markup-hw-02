@@ -267,7 +267,7 @@ h2, .heder2, .team-title, main-text {
     background: #404BBF; /* Цвет кнопки при наведении */
 }
 /* Стили для заголовка секции */
-.section_title {
+.section-third {
     font-size: 56px; 
     line-height: 1.07; 
     text-align: center; 
