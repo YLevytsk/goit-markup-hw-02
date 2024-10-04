@@ -51,7 +51,9 @@ contact-link-m, .contact-link-p {
 .navi-link, 
 .navi-link.contacts-link, 
 .navi-link.portfolio-link, 
-.navi-link.studio-link {
+.navi-link.studio-link
+.navi-link.contact-link-m,
+.navi-link.contact-link-m {
     color: #2e2f42; 
     font-weight: 500;/* Колір за умовчанням */
 }
