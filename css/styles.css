@@ -12,10 +12,9 @@ ul {
 }
 .contact-link-p,
 .contact-link-m,
- {
-    font-style: normal; /* Убираем курсив */
+ { font-style: normal; /* Убираем курсив */
     text-decoration: none; /* Убираем подчеркивание */
-    color: inherit; /* Сохраняем цвет родительского элемента */
+    color: inherit;
 }
 /* Цвет текста для адресов */
 .address-list, .adress-list-2 {
