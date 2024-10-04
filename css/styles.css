@@ -30,7 +30,7 @@ ul {
     color: #404bbf; /* Цвет текста при наведении */
 }
 /* Цвет текста для адресов */
-contact-link-m, .contact-link-p {
+.contact-link-m, .contact-link-p {
     color: #2e2f42; /* Цвет текста для адресов */
 }
 
