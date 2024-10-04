@@ -303,7 +303,7 @@ span {
     line-height: 1.07; /* Высота строки */
     text-align: center; /* Выравнивание текста по центру */
     letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #ffffff; /* Цвет шрифта */
+   color: #2E2F42;
 }
 
 .title_section {
