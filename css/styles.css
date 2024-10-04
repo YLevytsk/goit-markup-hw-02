@@ -18,7 +18,7 @@ ul {
     color: inherit; /* Сохраняем цвет родительского элемента */
 }
 /* Цвет текста для адресов */
-.address-list, .adress-list-2 {
+contact-link-m, .contact-link-p {
     color: #2e2f42; /* Цвет текста для адресов */
 }
 
