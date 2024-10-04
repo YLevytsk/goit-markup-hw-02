@@ -10,10 +10,16 @@ body {
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
-.contact-link {
+.contact-link-p,
+.contact-link-m,
+ {
     font-style: normal; /* Убираем курсив */
     text-decoration: none; /* Убираем подчеркивание */
     color: inherit; /* Сохраняем цвет родительского элемента */
+}
+/* Цвет текста для адресов */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
 }
 
 /* Логотип */
