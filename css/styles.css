@@ -54,10 +54,13 @@ ul {
 .navi-link:focus, 
 .navi-link.studio-link:hover, 
 .navi-link.portfolio-link:hover, 
-.navi-link.contacts-link:hover,
+.navi-link.contacts-link-m:hover,
+.navi-link.contacts-link-p:hover,
 .navi-link.studio-link:focus, 
 .navi-link.portfolio-link:focus, 
-.navi-link.contacts-link:focus {
+.navi-link.contacts-link-m:focus,
+.navi-link.contacts-link-p:focus
+{
     color: #404bbf; /* Колір при ховері та фокусі */
 }
 
