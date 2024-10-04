@@ -68,9 +68,10 @@ text-decoration: none;
 .navi-link-menu:focus, 
 .navi-link.link-menu:hover,
 .navi-link.link-menu:focus, 
-.contact-link:focus, /* Видалено зайвий префікс .navi-link */
-.contact-link:hover, { /* Видалено зайвий префікс .navi-link */
-    color: #404bbf; /* Колір при ховері та фокусі */
+.contact-link:focus, 
+.contact-link:hover,
+ { 
+color: #404bbf; 
 }
 /* Застосування жирного шрифту до першого елемента списку */
 .nav-list li:first-child .navi-link {
