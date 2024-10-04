@@ -39,13 +39,15 @@ ul {
 .contact-link, 
 .nav-list a {
     text-decoration: none;
+    
 }
 /* Основні стилі для посилань в навігації */
 .navi-link, 
 .navi-link.contacts-link, 
 .navi-link.portfolio-link, 
 .navi-link.studio-link {
-    color: #2e2f42; /* Колір за умовчанням */
+    color: #2e2f42; 
+    font-weight: 500;/* Колір за умовчанням */
 }
 
 .navi-link:hover,
