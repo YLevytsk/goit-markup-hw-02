@@ -125,26 +125,6 @@ text-align: center;
     color: #ffffff;
     text-align: center;
 }
-span { 
-    color: #f4f4fd;
-}
-
-/* Футер */
-footer {
-    background-color: #2E2F42;
-    color: #F4F4FD;
-}
-
-footer .logo_studio {
-    color: #F4F4FD;
-}
-
-footer .logo_web {
-    color: #4d5ae5;
-}
-span { 
-    color: #f4f4fd;
-}
 /* Кнопка */
 .button_hero {
     font-family: "Roboto", sans-serif; /* Шрифт кнопки */
@@ -156,7 +136,6 @@ span {
     letter-spacing: 0.04em; /* Расстояние между буквами */
     cursor: pointer; 
 }
-
 .button-hero:hover,
 .button-hero:focus {
  background: #404BBF;
