@@ -18,6 +18,18 @@ ul {
     color: inherit; /* Сохраняем цвет родительского элемента */
 }
 /* Цвет текста для адресов */
+.address-list, .adress-list-2 {
+    color: #2e2f42; /* Цвет текста для адресов */
+}
+
+/* Цвет текста для адресов при наведении или фокусе */
+.address-list:hover,
+.address-list:focus,
+.adress-list-2:hover,
+.adress-list-2:focus {
+    color: #404bbf; /* Цвет текста при наведении */
+}
+/* Цвет текста для адресов */
 contact-link-m, .contact-link-p {
     color: #2e2f42; /* Цвет текста для адресов */
 }
