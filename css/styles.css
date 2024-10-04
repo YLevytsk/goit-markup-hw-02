@@ -102,6 +102,9 @@ color: #404bbf;
 .main-page-link:focus {
     color: #404bbf; /* Цвет текста при наведении */
 }
+.section_first {
+    /* Стилі для секції */
+}
 title_section { 
     background-color: #2e2f42;
 }
@@ -114,33 +117,6 @@ letter-spacing: 0.02em;
 text-align: center;
     color: #ffffff;    
 }
-/* Заголовки общего назначения */
-h3, .heder, .team-item-title,main-text {
-font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-}
-
-.skills-text,team-item-description,p-text {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.02em;
-}
-
-/* Стили для заголовка секции */
-h2 {
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
-}
-/* Стили для заголовка секции */
 .section_title {
     font-size: 56px; 
     line-height: 1.07; 
@@ -182,8 +158,33 @@ span {
 }
 .button-hero:hover,
 .button-hero:focus {
-    background: #404BBF; /* Цвет кнопки при наведении */
+ background: #404BBF; /* Цвет кнопки при наведении */
 }
+h3, .heder, .team-item-title,main-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    }
+    
+    .skills-text,team-item-description,p-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    }
+    
+    /* Стили для заголовка секции */
+    h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    }
 /* Команда */
 .team-item-title {
     font-size: 20px;
