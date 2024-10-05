@@ -138,7 +138,7 @@ text-align: center;
 }
 .button_hero:hover,
 .button_hero:focus {
-    background-color: #404BBF;
+    background-color: #404BBF; /* Цвет кнопки при наведении */
 }
 h3, .heder, .team-item-title,main-text {
     font-family: Roboto;
