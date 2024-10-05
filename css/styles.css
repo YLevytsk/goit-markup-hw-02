@@ -148,14 +148,13 @@ h3, .heder, .team-item-title,main-text {
     .section_first {
         background-color: #2e2f42
     } 
-    .skills-text {
+    .skills-title {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        text-align: left;
-        
+        text-align: left;  
     }
     
     /* Стили для заголовка секции */
