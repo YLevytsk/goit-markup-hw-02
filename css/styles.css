@@ -1,6 +1,6 @@
 body {
     color: #434455;
-    background-color: #FFFFFF; /* Цвет фона */
+    background-color: #FFFFFF; 
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -8,14 +8,13 @@ body {
     letter-spacing: 0.02em;
 }
 ul {
-    list-style-type: none; /* Убираем маркеры списка */
-}
+    list-style-type: none; 
 .address {
     font-style: normal; 
 }
 .contact-link {
-    text-decoration: none; /* Убираем подчеркивание */
-    font-weight: normal; /* Нормальный текст */
+    text-decoration: none; 
+    font-weight: normal; /
 }
 .contact-link {
     color:#434455;
@@ -39,11 +38,11 @@ ul {
 }
 
 .logo_web {
-    color: #4d5ae5; /* Основная часть логотипа */
+    color: #4d5ae5;
 }
 
 .logo_studio {
-    color: #2e2f42; /* Часть логотипа "studio" */
+    color: #2e2f42; 
 }
 .logo_web, 
 .logo_studio, 
@@ -70,12 +69,12 @@ text-decoration: none;
  { 
 color: #404bbf; 
 }
-/* Застосування жирного шрифту до першого елемента списку */
+
 .nav-list li:first-child .navi-link {
     font-weight: 500;
 }
 .section_first {
-    /* Стилі для секції */
+
 }
 h1 {
 font-family: Roboto;
@@ -95,20 +94,20 @@ color: #ffffff;
     color: #ffffff;
     text-align: center;
 }
-/* Кнопка */
+
 .section_first .button_hero {
-    font-family: "Roboto", sans-serif; /* Шрифт кнопки */
-    background-color: #4D5AE5; /* Цвет кнопки */
-    color: #FFFFFF; /* Цвет текста в кнопке */
-    font-weight: 500; /* Жирность текста */
-    font-size: 16px; /* Размер шрифта */
-    line-height: 1.5; /* Междустрочный интервал */
-    letter-spacing: 0.04em; /* Расстояние между буквами */
+    font-family: "Roboto", sans-serif; 
+    background-color: #4D5AE5;
+    color: #FFFFFF; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer; 
 }
 .section_first .button_hero:hover,
 .section_first .button_hero:focus {
-    background-color: #404BBF; /* Цвет кнопки при наведении */
+    background-color: #404BBF; 
 }
 .section_first {
      background-color: #2e2f42
@@ -138,28 +137,28 @@ color: #ffffff;
     letter-spacing: 0.02em;
 }
 .team-item-title {
-    font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
-    font-size: 20px; /* Размер шрифта заголовка */
-    font-weight: 500; /* Жирность шрифта заголовка */
-    line-height: 24px; /* Высота строки для заголовка */
-    color: #2e2f42; /* Цвет заголовка */
-    margin: 16px 0; /* Отступы сверху и снизу заголовка */
+    font-family: "Roboto", sans-serif; 
+    font-size: 20px; 
+    font-weight: 500; 
+    line-height: 24px; 
+    color: #2e2f42; 
+    margin: 16px 0;
 }
 
 .team-item-description {
-    font-family: "Roboto", sans-serif; /* Шрифт для описания */
-    font-size: 16px; /* Размер шрифта описания */
-    font-weight: 400; /* Жирность шрифта описания */
-    line-height: 24px; /* Высота строки для описания */
-    color: #434455; /* Цвет описания */
-    margin: 0; /* Убираем отступы для описания */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434455; 
+    margin: 0; 
 }
  .team-title {
     font-family: "Roboto", sans-serif;
-    font-size: 36px; /* Размер шрифта заголовка */
-    font-weight: 700; /* Жирность шрифта заголовка */
-    line-height: 40px; /* Высота строки для заголовка */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
+    font-size: 36px;
+    font-weight: 700; 
+    line-height: 40px;
+    letter-spacing: 0.02em; 
    text-align: center;
    line-height: 1.11;
    text-transform: capitalize;
