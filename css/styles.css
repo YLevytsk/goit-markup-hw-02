@@ -138,13 +138,6 @@ color: #ffffff;
 .section_first .button_hero:focus {
     background-color: #404BBF; /* Цвет кнопки при наведении */
 }
-h3, .heder, .team-item-title,main-text {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    }
     .section_first {
      background-color: #2e2f42
     } 
