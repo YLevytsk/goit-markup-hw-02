@@ -138,10 +138,10 @@ color: #ffffff;
 .section_first .button_hero:focus {
     background-color: #404BBF; /* Цвет кнопки при наведении */
 }
-    .section_first {
+.section_first {
      background-color: #2e2f42
     } 
-    .skills-title {
+ .skills-title {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
@@ -150,7 +150,7 @@ color: #ffffff;
         text-align: left;
        color: #2e2f42   
     }
-    .skills-text {
+ .skills-text {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -160,7 +160,7 @@ color: #ffffff;
     color:  #434455;
     }
     /* Стили для заголовка секции */
-    h2, section-title {
+h2, section-title {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
