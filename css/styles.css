@@ -132,7 +132,7 @@ text-align: center;
     color: #FFFFFF; /* Цвет текста в кнопке */
     font-weight: 500; /* Жирность текста */
     font-size: 16px; /* Размер шрифта */
-    line-height: 1.5; /* Междустрочный интервал */
+    line-height: 1.07; /* Междустрочный интервал */
     letter-spacing: 0.04em; /* Расстояние между буквами */
     cursor: pointer; 
 }
