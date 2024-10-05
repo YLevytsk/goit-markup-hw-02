@@ -192,12 +192,7 @@ letter-spacing: 0.02em;
 text-align: left;
 background: #2E2F42;
 }
-.p-text {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-/* Футер */
+
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
@@ -213,7 +208,4 @@ footer .logo_web {
 
 span { 
     color: #f4f4fd;
-}
-.section-skills {
-  background-color:  #FFFFFF;   
 }
