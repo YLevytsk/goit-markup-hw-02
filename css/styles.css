@@ -162,9 +162,6 @@ color: #ffffff;
    text-transform: capitalize;
    color: #2e2f42
  }
- .portfolio-item { 
-    background-color: #FFFFFF;
-}
  .section-third {
     background-color: #F4F4FD;
 }
@@ -172,7 +169,7 @@ color: #ffffff;
     background-color: #FFFFFF;
 }
 .section-fourth {
-        text-align: center;
+       
     }
 
 .main-text-section {
