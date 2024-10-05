@@ -126,7 +126,7 @@ text-align: center;
     text-align: center;
 }
 /* Кнопка */
-.button_hero {
+.section_first .button_hero {
     font-family: "Roboto", sans-serif; /* Шрифт кнопки */
     background-color: #4D5AE5; /* Цвет кнопки */
     color: #FFFFFF; /* Цвет текста в кнопке */
@@ -136,8 +136,8 @@ text-align: center;
     letter-spacing: 0.04em; /* Расстояние между буквами */
     cursor: pointer; 
 }
-.button_hero:hover,
-.button_hero:focus {
+.section_first .button_hero:hover,
+.section_first .button_hero:focus {
     background-color: #404BBF; /* Цвет кнопки при наведении */
 }
 h3, .heder, .team-item-title,main-text {
