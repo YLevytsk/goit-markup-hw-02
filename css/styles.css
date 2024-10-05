@@ -10,6 +10,10 @@ body {
 ul {
     list-style-type: none; /* Убираем маркеры списка */
 }
+.address {
+    font-style: normal; 
+
+}
 .contact-link {
     text-decoration: none; /* Убираем подчеркивание */
     font-weight: normal; /* Нормальный текст */
