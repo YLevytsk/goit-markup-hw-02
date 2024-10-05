@@ -220,6 +220,9 @@ h3, .heder, .team-item-title,main-text {
  .section-third {
     background-color: #F4F4FD;
 }
+.our-team-li {
+    background-color: #FFFFFF;
+}
 .main-text-section {
  font-family: "Roboto",sans-serif;
 font-size: 36px;
