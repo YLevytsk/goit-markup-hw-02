@@ -154,7 +154,8 @@ h3, .heder, .team-item-title,main-text {
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.02em;
-        text-align: left;  
+        text-align: left;
+       color: #2e2f42   
     }
     .skills-text {
     font-family: Roboto;
