@@ -71,37 +71,6 @@ color: #404bbf;
 .nav-list li:first-child .navi-link {
     font-weight: 500;
 }
-
-
-/* Стили для блока features */
-.features {
-    display: flex;
-    margin-top: 0;
-    margin-left: 76px;
-}
-
-/* Стили для списков features-list и feature-list */
-.features-list, .feature-list {
-    margin-right: 40px;
-}
-
-/* Стили для ссылок */
-.feature-list a,
-.features-list a,
-.main-page-link {
-    font-weight: 500;
-    color: #2e2f42; /* Цвет текста по умолчанию */
-}
-.address { font-style: normal }
-/* Цвет текста при наведении и фокусе */
-.feature-list a:hover,
-.feature-list a:focus,
-.features-list a:hover,
-.features-list a:focus,
-.main-page-link:hover,
-.main-page-link:focus {
-    color: #404bbf; /* Цвет текста при наведении */
-}
 .section_first {
     /* Стилі для секції */
 }
@@ -159,26 +128,11 @@ color: #ffffff;
     text-align: left;
     color:  #434455;
     }
-    /* Стили для заголовка секции */
-h2, section-title {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-   
-    }
-/* Команда */
+
 .team-item-title {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-.team-item {
-    width: 264;/* Высота карточки */
-    background: #FFFFFF; /* Цвет фона карточки */
-    opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
 }
 .team-item-title {
     font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
