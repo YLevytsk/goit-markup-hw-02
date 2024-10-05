@@ -180,10 +180,6 @@ h2, section-title {
     background: #FFFFFF; /* Цвет фона карточки */
     opacity: 1; /* Прозрачность (установлено в 1 для видимости) */
 }
-
-.title_section {
-    background-color: #2e2f42; /* Фоновый цвет секции */
-}
 .team-item-title {
     font-family: "Roboto", sans-serif; /* Шрифт для заголовка */
     font-size: 20px; /* Размер шрифта заголовка */
