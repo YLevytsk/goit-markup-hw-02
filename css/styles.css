@@ -210,6 +210,8 @@ color: #ffffff;
     letter-spacing: 0.02em; /* Расстояние между буквами */
    text-align: center;
    line-height: 1.11;
+   text-transform: capitalize;
+   color: #2e2f42
  }
  .section-third {
     background-color: #F4F4FD;
