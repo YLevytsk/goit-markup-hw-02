@@ -117,7 +117,7 @@ letter-spacing: 0.02em;
 text-align: center;
     color: #ffffff;    
 }
-.section-first {
+.section_first {
     font-size: 56px; 
     line-height: 1.07; 
     text-align: center; 
@@ -147,7 +147,7 @@ h3, .heder, .team-item-title,main-text {
     line-height: 24px;
     letter-spacing: 0.02em;
     }
-    .section-first {
+    .section_first {
         background-color: #2e2f42
     } 
     .skills-text,team-item-description,p-text {
