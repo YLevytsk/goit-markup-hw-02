@@ -208,6 +208,9 @@ h2, section-title {
    text-transform: capitalize;
    color: #2e2f42
  }
+ .portfolio-item { 
+    background-color: #FFFFFF;
+}
  .section-third {
     background-color: #F4F4FD;
 }
