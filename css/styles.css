@@ -209,6 +209,7 @@ color: #ffffff;
     line-height: 40px; /* Высота строки для заголовка */
     letter-spacing: 0.02em; /* Расстояние между буквами */
    text-align: center;
+   line-height: 1.11;
  }
  .section-third {
     background-color: #F4F4FD;
