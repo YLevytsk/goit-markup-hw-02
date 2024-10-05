@@ -8,13 +8,13 @@ body {
     letter-spacing: 0.02em;
 }
 ul {
-    list-style-type: none; 
+    list-style-type: none;} 
 .address {
     font-style: normal; 
 }
 .contact-link {
     text-decoration: none; 
-    font-weight: normal; /
+    font-weight: normal;
 }
 .contact-link {
     color:#434455;
@@ -27,7 +27,6 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
 }
-/* Логотип */
 .logo_web, .logo_studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
