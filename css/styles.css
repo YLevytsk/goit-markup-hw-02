@@ -222,10 +222,13 @@ color: #ffffff;
 .main-text-section {
  font-family: "Roboto",sans-serif;
 font-size: 36px;
+line-height: 1.11;
 font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
 }
 .main-text {
 font-family: Roboto;
